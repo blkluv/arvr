@@ -30,7 +30,7 @@ export default function BuyBucks() {
                 5
             </div>
           </div>
-          <button onClick={handleClick} className="text-my-white bg-my-green w-64 text-center cursor-pointer uppercase px-4 py-2 rounded-md hover:bg-my-white hover:text-my-black transition-colors block text-heading-500 tracking-widest my-4 mx-auto">Add Quillbucks</button>
+          <button onClick={handleClick} className="text-my-white bg-my-green w-64 text-center cursor-pointer uppercase px-4 py-2 rounded-md hover:bg-my-white hover:text-my-black transition-colors block text-heading-500 tracking-widest my-4 mx-auto">Add Arvrtise Tokens</button>
         </div>
       </div>
     )

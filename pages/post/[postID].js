@@ -48,7 +48,7 @@ export default function Post(props) {
 
       const userSession = await getSession(context.req, context.res);
       const client = await ClientPromise;
-      const db = client.db('quillwind');
+      const db = client.db('ARVRtise');
       const user = await db.collection('users').findOne({
         auth0Id: userSession.user.sub
       });

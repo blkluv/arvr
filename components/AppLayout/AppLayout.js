@@ -40,7 +40,7 @@ export const AppLayout = ({ children, posts}) => {
                     <Link href="/post/new" className="text-my-white bg-my-lightblue w-64 text-center cursor-pointer uppercase px-4 py-2 rounded-md hover:bg-my-white hover:text-my-black transition-colors block text-heading-500 tracking-widest mx-auto">New Post</Link>
                     <Link href="/purchase" className="block mt-2 text-center py-2">
                         <FontAwesomeIcon icon={faSackDollar} className="text-my-yellow"/>
-                        <span className="pl-2">{quillbucks} Quillbucks</span>
+                        <span className="pl-2">{quillbucks} Arvrtise</span>
                     </Link>
                 </div>
                 <div className="flex-1 overflow-auto bg-gradient-to-b from-my-darkblue to-my-black scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 scrollbar-rounded-sm">
